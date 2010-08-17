@@ -1,0 +1,8 @@
+; $Id$
+name = Biblioteket Metropol
+description = Drupal-theme for Biblioteket Metropol
+screenshot  = screenshot.png
+core = 6.x
+engine = phptemplate
+base theme = dynamo
+
