@@ -6,3 +6,18 @@ core = 6.x
 engine = phptemplate
 base theme = dynamo
 
+
+regions[account] = account
+regions[search] = search
+regions[header] = header
+regions[left] = left sidebar
+regions[right] = right sidebar
+regions[footer] = footer
+
+
+stylesheets[all][]  = css/layout.css
+stylesheets[all][]  = css/grid.css
+
+stylesheets[all][]  = css/menu.css
+
+stylesheets[all][]  = css/ting-search-form.css

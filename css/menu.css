@@ -1,0 +1,20 @@
+.main-menu li{
+  float:left;
+}
+
+.main-menu li a{
+  display:block;
+  padding:10px 20px;
+  text-transform:uppercase;
+  color:#fff;
+  background:transparent url('../images/menuitem-shadow.png') no-repeat left top;
+  text-decoration:none !important;
+  text-shadow: black 0 0 4px;
+}
+.main-menu li a:hover{
+ background: -moz-linear-gradient(top, #9a9487, #7a726a);
+ /*background:transparent url('../images/menuitem-shadow.png') no-repeat -30px -30px;*/
+}
+
+
+
