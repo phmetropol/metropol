@@ -38,15 +38,27 @@
 
 <div class="toparea">
   <div class="cfw line">
-    <<?php print $site_name_element; ?> id="site-name">
-      <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home">
-	      <?php print $site_name; ?>
-	    </a>
-	  </<?php print $site_name_element; ?>>
-    <div class="size1of2 unit"><?print t('Søg her');?><?php print $search ?></div>
+    <div class="size1of2 unit">
+      <h1 id="site-name">
+        <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home">
+          <?php print $site_name; ?>
+        </a>
+      </h1>
+    </div>
+    <div class="lastUnit unit">
+        <h2 class="phmetropol-link">
+          <a href="http://phmetropol.dk" title="Professionshøjskolen Metropol">
+            Professionshøjskolen Metropol
+          </a>
+        </h2>
+    </div>
+  </div>
+  <div class="cfw line">
+    <div class="size1of2 unit"><p class="search-label"><?print t('Søg her');?></p><?php print $search ?></div>
     <div class="lastUnit unit"><?php print $account; ?></div>
   </div>
 </div>
+
 <div class="menubar">
   <div class="cfw line">
   <?php if ($primary_links): ?>
@@ -55,17 +67,33 @@
   </div>
 </div>
 <div class="contentarea">
-<div class="cfw">
-  <div class="ribbon">
-  <?php print $breadcrumb; ?>
-  </div>
-  <div class="contentwrap">
-  fdfd
-  </div>
+  <div class="cfw line">
+    <div class="ribbon">
+    <?php print $breadcrumb; ?>
+    </div>
+    <div class="contentwrap">
+<!--  -->
 
+      
 
+                <?php
+                  /*if were in the user pages add the tabs in the top*/
+                  if (arg(0) == 'user' && is_numeric(arg(1)) && $tabs){
+                    print '<div class="tabs-user">' . $tabs . '</div>';
+                  }
+                ?>
+
+                  <?php print $content; ?>
+                
+      
+
+<!--  -->
+    </div>
+  
+  
+  </div>
 </div>
-</div>
+
 <div class="footerarea">
 <div class="cfw">
 <?php print $footer; ?>

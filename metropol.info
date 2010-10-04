@@ -21,3 +21,4 @@ stylesheets[all][]  = css/grid.css
 stylesheets[all][]  = css/menu.css
 
 stylesheets[all][]  = css/ting-search-form.css
+stylesheets[all][]  = css/basic.css

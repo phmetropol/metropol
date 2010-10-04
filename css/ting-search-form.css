@@ -3,3 +3,46 @@
   margin:0;
   padding:0;
 }
+
+.search-label{
+  color:#fff;
+  font-size:1.4em;
+  text-transform:uppercase;
+  margin:15px 0 5px 0;
+}
+
+
+#ting-search-form label{
+  position:absolute;
+  top:0;
+  left:0;
+  color:#fff;
+  background:none;
+  /*margin:0;
+  padding:0;*/
+  padding-left:10px;
+}
+#ting-search-form #edit-keys-wrapper{
+  height:24px;
+}
+
+#ting-search-form .form-text{
+  background:#646464;
+  border: 0;
+  -moz-border-radius: 4px;
+  width:350px;
+}
+.form-image-button{
+  position:absolute;
+  top:0;
+  left:0;
+}
+#ting-search-form .form-image-button .form-submit{
+  position:absolute;
+  left:353px;
+  top:2px;
+  width:20px;
+  height:20px;
+  -moz-border-radius: 4px;
+  
+}

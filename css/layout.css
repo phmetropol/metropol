@@ -7,12 +7,12 @@ body{
 }
 .toparea .cfw{
   background: transparent url('../images/30overlay.png');
-  padding-top:20px;
 }
 .toparea h1#site-name{
   margin:0;
   padding:0;
   height:auto;
+  
 }
 .toparea h1#site-name a{
   background: transparent url('../images/logo.png');
@@ -20,11 +20,24 @@ body{
   height:46px;
 }
 
+.phmetropol-link{
+  float:right;
+  margin-right:0;
+  margin:0;
+  padding:0;
+}
+.toparea h2.phmetropol-link a{
+  display:block;
+  text-indent:-999em;
+  background: transparent url('../images/phmetopol-dk.png');
+  width:101px;
+  height:43px;
+}
 
 
 .contentarea{
   min-height:600px;
-  background: #f2f1ef url('../images/content-bg.gif') repeat-x bottom center;
+  background: #f2f1ef url('../images/bg-main.jpg') no-repeat bottom center;
 }
 .contentarea .ribbon{
   background: #f8f8f8;

@@ -1,0 +1,32 @@
+
+
+.panel-threecol-33-34-33-stacked .panel-left{
+  margin:0;
+  padding:5px;
+  background:#faf9f9;
+}
+.panel-threecol-33-34-33-stacked .panel-middle{
+  margin:0;
+  padding:5px;
+  
+}
+.panel-threecol-33-34-33-stacked .panel-right{}
+
+
+.light-bg{
+  background:#faf9f9;
+}
+
+.pane-left{
+ margin-right:5px;
+}
+.pane-middle{
+  margin: 0 5px;
+}
+.pane-right{
+  margin-left:5px;
+}
+.pane-right img{
+  display:block;
+  width:100%;
+}
