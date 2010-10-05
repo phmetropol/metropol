@@ -89,9 +89,31 @@
 </div>
 
 <div class="footerarea">
-<div class="cfw">
-<?php print $footer; ?>
-</div>
+
+  <dl class="cfw clear-block">
+    <dt>Professionshøjskolen Metropol </dt>
+    <dd>Købmagergade 62, 3 </dd>
+  
+    <dd>1150 København K </dd>
+    <dd>+45 72 48 75 00 </dd>
+    <dd>
+      <a href="mailto:info@phmetropol.dk">info@phmetropol.dk</a> </dd>
+    <dd>
+      <a href="/Sitetools/Sitemap">Sitemap</a>
+    </dd>
+<!--<dd>
+      <a href="http://www.phmetropol.dk/Om+Metropol/EAN+numre">CVR og EAN-nummer</a>
+    </dd> -->
+    <dd class="logo">
+      <a href="http://phmetropol.dk" title="Professionshøjskolen Metropol">
+	      Professionshøjskolen Metropol
+	    </a>
+    </dd>
+  </dl>
+
+
+<?php #print $footer; ?>
+
 </div>
 
 

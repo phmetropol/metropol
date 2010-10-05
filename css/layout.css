@@ -40,7 +40,7 @@ body{
 
 .contentarea{
   min-height:600px;
-  background: #f2f1ef url('../images/bg-main.jpg') no-repeat bottom center;
+  background: #EEEDEB url('../images/bg-main.jpg') no-repeat bottom center;
 }
 .contentarea .ribbon{
   background: #f8f8f8;
@@ -64,4 +64,38 @@ body{
 
 .footerarea{
   background: #262626 url('../images/bg-body-repeat.jpg') repeat top center;
+  color:#ffffff;
+  font-size:0.8em;
+}
+.footerarea dl{
+  padding: 20px 0;
+}
+.footerarea dd, .footerarea dt{
+  display:block;
+  float:left;
+  line-height:1;
+}
+.footerarea dd{
+  border-left:1px solid #CDCDCD;
+  margin-left:11px;
+  padding-left:10px;
+}
+.footerarea .logo{
+  margin:0;
+  padding:0;
+  float:right;
+  border:0;
+  position:relative;
+}
+.footerarea .logo a{
+  
+  position:absolute;
+  top:-5px;
+  right:0;
+  background:url("../images/phmetopol-dk-small.png") repeat scroll 0 0 transparent;
+  display:block;
+  height:21px;
+  text-indent:-999em;
+  width:50px;
+
 }
