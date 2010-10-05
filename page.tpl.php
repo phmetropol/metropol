@@ -57,6 +57,13 @@
     <div class="size1of2 unit"><p class="search-label"><?print t('Søg her');?></p><?php print $search ?></div>
     <div class="lastUnit unit"><?php print $account; ?></div>
   </div>
+  
+  <?php if (arg(0) != 'user'  && $tabs): ?>
+    <div class="cfw">
+    <div class="tabs"><?php print $tabs; ?></div>
+    </div>
+<?endif;?>
+  
 </div>
 
 <div class="menubar">
@@ -72,22 +79,9 @@
     <?php print $breadcrumb; ?>
     </div>
     <div class="contentwrap">
-<!--  -->
-
-      
-
-                <?php
-                  /*if were in the user pages add the tabs in the top*/
-                  if (arg(0) == 'user' && is_numeric(arg(1)) && $tabs){
-                    print '<div class="tabs-user">' . $tabs . '</div>';
-                  }
-                ?>
-
-                  <?php print $content; ?>
-                
-      
-
-<!--  -->
+      <!-- Content Start -->
+        <?php print $content; ?>
+      <!-- Content End -->
     </div>
   
   

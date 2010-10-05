@@ -2,8 +2,8 @@ body{
 }
 
 .toparea{
-  padding:10px;
-  background: #262626 url('../images/bg-body-repeat.jpg') repeat top center;
+  padding-top:10px;
+  background: #E5E2DF url('../images/bg-body-repeat.jpg') repeat top center;
 }
 .toparea .cfw{
   background: transparent url('../images/30overlay.png');
@@ -33,7 +33,10 @@ body{
   width:101px;
   height:43px;
 }
-
+.toparea .tabs ul{
+  margin:0;
+  border:0;
+}
 
 .contentarea{
   min-height:600px;
@@ -41,15 +44,15 @@ body{
 }
 .contentarea .ribbon{
   background: #f8f8f8;
+  border-bottom: 1px solid #cbc7c1;
 }
 .contentarea .ribbon #path{
   margin:0;
   padding:10px;
 }
 .contentarea .contentwrap{
-  border-top: 1px solid #cbc7c1;
+  
   background: #e5e2df;
-  padding:10px;
 }
 
 
