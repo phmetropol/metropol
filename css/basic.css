@@ -32,20 +32,16 @@
 }*/
 
 
-.content-area-bg{
-  background: transparent url('../images/bg-main-shadow.png') no-repeat center bottom;
-}
-.content-shadow{
-  height:10px;
-  background: transparent url('../images/bg-main-shadow-bottom.png') no-repeat center bottom;
-}
+
 .whitebg{
   background:#faf9f9;
   margin:5px;
   padding:10px;
 }
 
-
+a, a:link{
+  color: #E62F96;
+}
 
 
 

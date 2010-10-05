@@ -46,6 +46,13 @@ body{
   min-height:600px;
   background: #EEEDEB url('../images/bg-main.jpg') no-repeat bottom center;
 }
+.content-area-bg{
+  background: transparent url('../images/bg-main-shadow.png') no-repeat center bottom;
+}
+.content-shadow{
+  height:10px;
+  background: transparent url('../images/bg-main-shadow-bottom.png') no-repeat center bottom;
+}
 .contentarea .ribbon{
   background: #f8f8f8;
   border-bottom: 1px solid #cbc7c1;

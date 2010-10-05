@@ -11,7 +11,9 @@
    <?php endif;?>
 		<!--left-->
 		<div class="panel-left">
+      <div class="whitebg clear-block">
 			<?php print $content['left']; ?>
+      </div>
     </div>
 		<!--/left-->
 		<?php if (!empty($content['bottom'])): ?>
@@ -25,7 +27,9 @@
 <!--//content-left-->
 <!--content-right-->
 	<div class="content-right">
+    <div class="whitebg clear-block">
 		<?php print $content['right']; ?>
+    </div>
 	</div>  
 <!--/content-right-->
 </div>  

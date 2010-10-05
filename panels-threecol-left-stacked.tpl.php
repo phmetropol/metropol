@@ -10,11 +10,15 @@
 			<div class="content-middle">
 
 				<div class="panel-left">
-			      <?php print $content['left']; ?>      		
+          <div class="whitebg">
+			      <?php print $content['left']; ?>
+          </div>      		
 				</div>
 
 				<div class="panel-middle">
-			      <?php print $content['middle']; ?>        
+          <div class="whitebg">
+			      <?php print $content['middle']; ?>
+          </div>        
 				</div>
 
 			</div>
