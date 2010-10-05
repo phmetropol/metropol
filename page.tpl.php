@@ -74,16 +74,21 @@
   </div>
 </div>
 <div class="contentarea">
-  <div class="cfw line">
-    <div class="ribbon">
-    <?php print $breadcrumb; ?>
+  <div class="content-area-bg">
+    <div class="cfw line">
+      <div class="ribbon">
+      <?php print $breadcrumb; ?>
+      </div>
+      <div class="contentwrap">
+        <!-- Content Start -->
+          <?php print $content; ?>
+        <!-- Content End -->
+      </div>
+      <div class="content-shadow"> </div>
     </div>
-    <div class="contentwrap">
-      <!-- Content Start -->
-        <?php print $content; ?>
-      <!-- Content End -->
-    </div>
-  
+  </div>
+  <div class="cfw footer-menu line">
+    <?php print $footer_menu;?>
   
   </div>
 </div>
@@ -120,7 +125,7 @@
 
 
 
-
+<!-- 
 
 
 
@@ -229,6 +234,8 @@
     </div>
 
 </div>
+
+ -->
 
 <?php print $closure; ?>
 </body>

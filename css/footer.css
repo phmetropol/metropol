@@ -1,0 +1,32 @@
+.footer-menu ul.menu{
+  list-style:none;
+}
+
+.footer-menu ul.menu li{
+  float:left;
+  width:25%;
+  margin:0;
+  padding:0;  
+}
+.footer-menu ul.menu li span.nolink{
+  font-weight:bold;
+  display:block;
+  border-bottom:1px solid #dfdcd9;
+  margin:10px;
+  padding-bottom:5px;
+}
+.footer-menu ul.menu li ul.menu{
+  
+}
+.footer-menu ul.menu li ul.menu li.leaf{
+  display:block;
+  float:none;
+  width:auto; 
+}
+.footer-menu ul.menu li ul.menu li.leaf a{
+  font-weight:normal;
+  display:block;
+  color:#666;
+  margin:0 0 10px 0;
+  font-size:0.9em;
+}

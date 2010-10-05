@@ -13,6 +13,7 @@ regions[header] = header
 regions[left] = left sidebar
 regions[right] = right sidebar
 regions[footer] = footer
+regions[footer_menu] = footer menu
 
 
 stylesheets[all][]  = css/layout.css
@@ -22,3 +23,4 @@ stylesheets[all][]  = css/menu.css
 
 stylesheets[all][]  = css/ting-search-form.css
 stylesheets[all][]  = css/basic.css
+stylesheets[all][]  = css/footer.css

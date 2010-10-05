@@ -30,3 +30,12 @@
   display:block;
   width:100%;
 }
+
+
+.content-area-bg{
+  background: transparent url('../images/bg-main-shadow.png') no-repeat center bottom;
+}
+.content-shadow{
+  height:10px;
+  background: transparent url('../images/bg-main-shadow-bottom.png') no-repeat center bottom;
+}
