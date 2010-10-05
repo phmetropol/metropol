@@ -18,9 +18,12 @@
   left:0;
   color:#fff;
   background:none;
-  /*margin:0;
-  padding:0;*/
-  padding-left:10px;
+  margin:0;
+  padding:4px;
+}
+#ting-search-form #edit-keys{
+  margin:0;
+  padding:4px;
 }
 #ting-search-form #edit-keys-wrapper{
   height:24px;
@@ -30,19 +33,24 @@
   background:#646464;
   border: 0;
   -moz-border-radius: 4px;
-  width:350px;
+  width:95%;
 }
-.form-image-button{
-  position:absolute;
+#ting-search-form .form-image-button{
+  /*position:absolute;
   top:0;
-  left:0;
+  left:0;*/
+  display:block;
+  float:none;
+  height:auto;
+  width:100%;
 }
 #ting-search-form .form-image-button .form-submit{
   position:absolute;
-  left:353px;
-  top:2px;
-  width:20px;
-  height:20px;
+  right:20px;
+  top:-21px;
+  height:18px;
+  padding:2px;
+  background:#333;
   -moz-border-radius: 4px;
   
 }

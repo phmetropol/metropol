@@ -1,4 +1,4 @@
-
+/*
 
 .panel-threecol-33-34-33-stacked .panel-left{
   margin:0;
@@ -29,7 +29,7 @@
 .pane-right img{
   display:block;
   width:100%;
-}
+}*/
 
 
 .content-area-bg{
@@ -39,3 +39,14 @@
   height:10px;
   background: transparent url('../images/bg-main-shadow-bottom.png') no-repeat center bottom;
 }
+.whitebg{
+  background:#faf9f9;
+  margin:5px;
+  padding:10px;
+}
+
+
+
+
+
+

@@ -20,6 +20,10 @@ body{
   height:46px;
 }
 
+.toparea #block-alma-user-account{
+  float:right;
+}
+
 .phmetropol-link{
   float:right;
   margin-right:0;

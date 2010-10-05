@@ -24,3 +24,4 @@ stylesheets[all][]  = css/menu.css
 stylesheets[all][]  = css/ting-search-form.css
 stylesheets[all][]  = css/basic.css
 stylesheets[all][]  = css/footer.css
+stylesheets[all][]  = css/dynamo-resets.css

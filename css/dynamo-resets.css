@@ -1,0 +1,52 @@
+/* evil resets */
+.panel-threecol-33-34-33-stacked .panel-left .view-article-list {
+  width:auto;
+  left:auto;
+}
+.panel-left .view ul li, .panel-left ul.item-list li, .panel-left .pane-library_feature_detail_list ul li{
+  background:none;
+  padding:0;
+}
+#event-list h3, .panel-middle .view-empty{
+  margin:0;
+  padding:0;
+}
+
+
+
+/* panels specific */
+.panel-threecol-33-34-33-stacked{
+  padding:5px;
+}
+
+.panel-threecol-33-34-33-stacked .panel-left {
+  background: transparent;
+  width:50%;
+  padding:0;
+  border:0;
+}
+.panel-threecol-33-34-33-stacked .panel-middle {
+  background: transparent;
+  width:25%;
+  padding:0;
+  border:0;
+}
+.panel-threecol-33-34-33-stacked .panel-right {
+  background: transparent;
+  width:25%;
+  padding:0;
+  border:0;
+  padding-top:5px;
+}
+
+
+
+
+
+
+.panel-threecol-33-34-33-stacked .panel-right .panel-pane {
+  margin:0 5px;
+}
+.panel-threecol-33-34-33-stacked .panel-right .panel-pane img{
+  width:100%;
+}
