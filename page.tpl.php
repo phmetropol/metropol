@@ -59,8 +59,8 @@
   </div>
   
   <?php if (arg(0) != 'user'  && $tabs): ?>
-    <div class="cfw">
-    <div class="tabs"><?php print $tabs; ?></div>
+    <div class="cfw line">
+    <?php print $tabs; ?>
     </div>
 <?endif;?>
   

@@ -39,10 +39,15 @@
   padding:10px;
 }
 
-a, a:link{
+#ting-facet-browser li li, a, a:link, a:visited, a:active{
   color: #E62F96;
 }
-
-
-
-
+.form-required{
+  color: #E62F96;
+}
+div.error {
+  background: #E62F96;
+}
+body, caption, th, td, input, textarea, select, option, legend, fieldset {
+  font-family: "Corbel","Trebuchet MS","Verdana","Tahoma",sans-serif
+}

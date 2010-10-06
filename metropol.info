@@ -25,3 +25,6 @@ stylesheets[all][]  = css/ting-search-form.css
 stylesheets[all][]  = css/basic.css
 stylesheets[all][]  = css/footer.css
 stylesheets[all][]  = css/dynamo-resets.css
+stylesheets[all][]  = css/alma-user-login.css
+
+scripts[] = js/metropol.js

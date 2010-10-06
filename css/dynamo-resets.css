@@ -19,6 +19,9 @@
 .panel-threecol-33-34-33-stacked .panel-right .panel-pane img{
   width:100%;
 }
+.panel-left .view, .panel-left .pane-library_feature_detail_list ul.item-list {
+  position:static;
+}
 
 
 /* panels specific */

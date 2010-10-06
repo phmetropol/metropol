@@ -1,0 +1,40 @@
+#user-login-form {
+  background:transparent;
+  margin:0;
+  padding:0;
+}
+#user-login-form .form-item{
+  position:relative;
+
+}
+#user-login-form label{
+  position:absolute;
+  color:#fff;
+  
+}
+
+#user-login-form .form-item input{
+    background:#646464;
+  border: 0;
+  -moz-border-radius: 4px;
+  color:#fff;
+  padding:3px;
+}
+#user-login-form #edit-name-wrapper, #user-login-form #edit-pass-wrapper{
+  width:auto;
+  float:none;
+}
+#user-login-form .form-item input{
+  width:220px !important;
+}
+#user-login-form .form-image-button {
+  position:absolute;
+  right:0;
+  bottom:0;
+  border:4px;  
+}
+
+#user-login-form .form-image-button input {
+  -moz-border-radius: 4px;
+  border:3px solid #333;
+}

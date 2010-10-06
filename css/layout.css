@@ -37,10 +37,27 @@ body{
   width:101px;
   height:43px;
 }
-.toparea .tabs ul{
-  margin:0;
-  border:0;
+
+
+/* top area adjustments */
+
+.toparea h1#site-name{
+  margin:20px 0 0 20px;
 }
+
+.toparea .phmetropol-link{
+  margin: 20px 20px 0 0;
+}
+.toparea .search-label{
+  margin-left:20px;
+}
+.toparea #ting-search-form{
+  margin-left:20px;
+}
+.toparea #user-login-form{
+  margin-right:20px;
+}
+
 
 .contentarea{
   min-height:600px;
@@ -110,3 +127,64 @@ body{
   width:50px;
 
 }
+
+
+
+/* tabs styles */
+
+.toparea ul.tabs{
+  /*background: #E62F96;*/
+ width:auto;
+ float:right;
+  padding: 0 20px 10px 20px;
+  margin:0;
+  border:0;
+}
+.toparea ul.tabs li a{
+  margin-left:10px;
+  margin-right:0;
+  border:0;
+} 
+
+
+
+
+
+/* panel panes */
+
+.panel-pane{
+  position:relative;
+}
+
+.panel-pane > h3{
+  background:transparent !important;
+  text-transform:inherit !important;
+  font-size: 1.3em !important;
+  margin:0;
+  padding:0 0 10px 0 !important;
+  border-bottom:1px solid #dfdcd9;
+}
+.panel-pane div.feed-icon{
+  position:absolute;
+  margin:0;
+  top:0;
+  right:0;
+}
+.panel-pane div.feed-icon a *{
+  float:right;
+  top:0;
+  margin:0;
+}
+.panel-pane div.feed-icon a span{
+  margin-top:4px;
+  color:#3a7492;
+  text-decoration:underline;
+  text-transform:lowercase;
+}
+.panel-pane h2 a{
+  font-size:0.8em;
+  color:#3a7492;
+}
+/*.panel-pane div.feed-icon a img{
+  float:right;
+}*/
