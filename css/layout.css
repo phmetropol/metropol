@@ -176,13 +176,21 @@ body{
   margin:0;
 }
 .panel-pane div.feed-icon a span{
-  margin-top:4px;
+  /*margin-top:4px;*/
+ padding-right:4px;
   color:#3a7492;
   text-decoration:underline;
   text-transform:lowercase;
 }
+h1,h2,h3,h4,h5,h6{
+  line-height:1;
+}
+.panel-pane .view-article-list p {
+  margin-top:0;
+}
 .panel-pane h2 a{
   font-size:0.8em;
+  
   color:#3a7492;
 }
 /*.panel-pane div.feed-icon a img{
