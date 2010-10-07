@@ -87,7 +87,12 @@ body{
 .menubar{
   border-top: 1px solid #e2e2e2;
   border-bottom: 1px solid #80786c;
-  background: -moz-linear-gradient(top, #c1b9a9, #988e84);
+
+  background: #c1b9a9; /* for non-css3 browsers */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c1b9a9', endColorstr='#988e84'); /* for IE */
+  background: -webkit-gradient(linear, left top, left bottom, from(#c1b9a9), to(#988e84)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #c1b9a9,  #988e84); /* for firefox 3.6+ */
 }
 
 .footerarea{
@@ -196,3 +201,13 @@ h1,h2,h3,h4,h5,h6{
 /*.panel-pane div.feed-icon a img{
   float:right;
 }*/
+
+.campaign-image {
+  margin:0;
+  overflow:visible;
+  width:auto;
+}
+.campaign-image img{
+  width:100%;
+ height:auto;
+}

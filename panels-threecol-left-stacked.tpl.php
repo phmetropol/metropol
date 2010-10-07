@@ -2,10 +2,14 @@
 <div class="panel-threecol-left-stacked clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
 
 	<div class="content-left">
-
+      
+      <?php if($content['top']):?>
 			<div class="content-top">
+      <div class="whitebg">
       	<?php print $content['top']; ?>
+      </div>
 			</div>
+      <?php endif;?>
 
 			<div class="content-middle">
 

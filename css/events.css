@@ -1,3 +1,26 @@
 body.front #event-list .view-event-list .leaf{
   background:none;
 }
+
+body.front #event-list .view-event-list ul li{
+  margin:10px 0 0 0;  
+  padding:0;
+  background:transparent;
+  
+}
+body.front #event-list .view-event-list ul li p.time{
+  margin:0;
+}
+body.front #event-list .view-event-list ul li .info{
+  float:none;
+  width:auto;
+  padding:0;
+  overflow:visible;
+}
+body.front #event-list .view-event-list ul li div.info h4 a{
+  font-size:0.9em;
+  font-weight:normal;
+  color:#3A7492;
+  text-decoration:underline;
+  line-height:1;
+}

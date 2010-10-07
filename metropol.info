@@ -27,5 +27,6 @@ stylesheets[all][]  = css/footer.css
 stylesheets[all][]  = css/dynamo-resets.css
 stylesheets[all][]  = css/alma-user-login.css
 stylesheets[all][]  = css/events.css
+stylesheets[all][]  = css/ting-object.css
 
 scripts[] = js/metropol.js

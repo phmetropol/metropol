@@ -39,7 +39,7 @@
   padding:10px;
 }
 
-#ting-facet-browser li li, a, a:link, a:visited, a:active{
+#ting-facet-browser li li, a, a:link, a:visited, a:active, ul.pager li a {
   color: #E62F96;
 }
 .form-required{
@@ -50,4 +50,7 @@ div.error {
 }
 body, caption, th, td, input, textarea, select, option, legend, fieldset {
   font-family: "Corbel","Trebuchet MS","Verdana","Tahoma",sans-serif
+}
+ul.pager{
+  background:transparent;
 }

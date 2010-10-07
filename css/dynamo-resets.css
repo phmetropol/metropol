@@ -25,7 +25,10 @@
 
 
 /* panels specific */
-.panel-threecol-33-34-33-stacked{
+.panel-threecol-33-34-33-stacked,
+.panel-twocol-left-stacked,
+.panel-threecol-left-stacked-right,
+.panel-threecol-left-stacked{
   padding:5px;
 }
 
@@ -49,21 +52,80 @@
   padding-top:5px;
 }
 
-.panel-twocol-left-stacked{
-  padding:5px;
-}
-.panel-twocol-left-stacked .content-left {
+.panel-twocol-left-stacked .content-left,
+.panel-threecol-left-stacked-right .content-left,
+.panel-threecol-left-stacked .content-left {
   width:75%;
   margin:0;
 }
 body.ding-ting-search .panel-twocol-left-stacked .panel-left {
   width:auto;
 }
-.panel-twocol-left-stacked .content-right {
+.panel-twocol-left-stacked .content-right,
+.panel-threecol-left-stacked-right .content-right,
+.panel-threecol-left-stacked .content-right {
   width:25%;
+  margin:0;
+  padding-top:5px;
+}
+.panel-twocol-left-stacked .content-right .panel-pane,
+.panel-threecol-left-stacked-right .content-right .panel-pane,
+.panel-threecol-left-stacked .content-right .panel-pane{
+  margin:0 5px;
+}
+.panel-twocol-left-stacked .panel-left {
+  width:auto;
+}
+.panel-twocol-left-stacked .panel-left .pane-node_content {
+  margin:0;
+}
+.panel-twocol-left-stacked .panel-left .pane-node_content .content {
+  margin:0;
+}
+.panel-threecol-left-stacked .content-top {
+  left:0;
+  padding:0;
+  background: transparent;
+}
+.panel-threecol-left-stacked .panel-left {
+  background: transparent;
+}
+.panel-threecol-left-stacked .panel-left {
+  width:66.66%;
+}
+.panel-threecol-left-stacked .panel-middle {
+  width:33.33%;
+}
+.panel-threecol-left-stacked .panel-middle .pane-topic_list {
   margin:0;
 }
 
+/* ding-box-pane */
 
+.ding-box-pane{
+  line-height:1;
+  margin:0 5px 10px 5px;
+  background: #FAF9F9;
+  width:auto;
+}
 
-
+.contentarea .content-area-bg .ding-box-pane .panel-pane{
+  background:transparent;
+  width:auto;
+  padding:10px;
+  margin:0;
+}
+.ding-box-pane h3 {
+  width:auto;
+  border: 0;
+}
+.ding-box-pane ul {
+  background: transparent;
+  width:auto;
+  padding:0;
+}
+.ding-box-pane ul li {
+  width:auto;
+  margin:0;
+  padding:0;
+}

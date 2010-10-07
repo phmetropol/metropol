@@ -27,7 +27,7 @@
 <!--//content-left-->
 <!--content-right-->
 	<div class="content-right">
-    <div class="whitebg clear-block">
+    <div class="clear-block">
 		<?php print $content['right']; ?>
     </div>
 	</div>  

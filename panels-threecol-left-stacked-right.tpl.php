@@ -3,10 +3,13 @@
 
 		<div class="content-left">
 
+      <div class="whitebg clear-block">
+
+        <?php if($content['top']):?>
 				<div class="content-top">
 	      	<?php print $content['top']; ?>
 				</div>
-
+        <?php endif; ?>
 				<div class="content-middle">
 
 					<div class="panel-left">
@@ -22,6 +25,7 @@
 				<div class="panel-bottomt">
 	      	<?php print $content['bottom']; ?>        
 				</div>
+      </div>
 
 		</div>
 
