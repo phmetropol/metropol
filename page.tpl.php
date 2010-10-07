@@ -35,92 +35,91 @@
 
     </div>
 <?php } ?>
-
-<div class="toparea">
-  <div class="cfw line">
-    <div class="size1of2 unit">
-      <h1 id="site-name">
-        <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home">
-          <?php print $site_name; ?>
-        </a>
-      </h1>
+<div id="wrap">
+  <div id="page">
+    <div class="toparea">
+      <div class="cfw line">
+        <div class="size1of2 unit">
+          <h1 id="site-name">
+            <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home">
+              <?php print $site_name; ?>
+            </a>
+          </h1>
+        </div>
+        <div class="lastUnit unit">
+            <h2 class="phmetropol-link">
+              <a href="http://phmetropol.dk" title="Professionshøjskolen Metropol">
+                Professionshøjskolen Metropol
+              </a>
+            </h2>
+        </div>
+      </div>
+      <div class="cfw line">
+        <div class="size1of2 unit"><p class="search-label"><?print t('Søg her');?></p><?php print $search ?></div>
+        <div class="lastUnit unit"><?php print $account; ?></div>
+      </div>
+      
+      <?php if (arg(0) != 'user'  && $tabs): ?>
+        <div class="cfw line">
+        <?php print $tabs; ?>
+        </div>
+    <?endif;?>
+      
     </div>
-    <div class="lastUnit unit">
-        <h2 class="phmetropol-link">
-          <a href="http://phmetropol.dk" title="Professionshøjskolen Metropol">
-            Professionshøjskolen Metropol
-          </a>
-        </h2>
+    
+    <div class="menubar">
+      <div class="cfw line">
+      <?php if ($primary_links): ?>
+        <?php print theme('links', $primary_links,array('class' => 'main-menu')); ?>
+      <?php endif; ?>
+      </div>
+    </div>
+    <div class="contentarea">
+      <div class="content-area-bg">
+        <div class="cfw line">
+          <div class="ribbon">
+          <?php print $breadcrumb; ?>
+          </div>
+          <div class="contentwrap">
+            <!-- Content Start -->
+              <?php print $content; ?>
+            <!-- Content End -->
+          </div>
+          <div class="content-shadow"> </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="cfw line">
-    <div class="size1of2 unit"><p class="search-label"><?print t('Søg her');?></p><?php print $search ?></div>
-    <div class="lastUnit unit"><?php print $account; ?></div>
-  </div>
-  
-  <?php if (arg(0) != 'user'  && $tabs): ?>
-    <div class="cfw line">
-    <?php print $tabs; ?>
-    </div>
-<?endif;?>
-  
 </div>
 
-<div class="menubar">
-  <div class="cfw line">
-  <?php if ($primary_links): ?>
-    <?php print theme('links', $primary_links,array('class' => 'main-menu')); ?>
-  <?php endif; ?>
-  </div>
-</div>
-<div class="contentarea">
-  <div class="content-area-bg">
-    <div class="cfw line">
-      <div class="ribbon">
-      <?php print $breadcrumb; ?>
-      </div>
-      <div class="contentwrap">
-        <!-- Content Start -->
-          <?php print $content; ?>
-        <!-- Content End -->
-      </div>
-      <div class="content-shadow"> </div>
-    </div>
-  </div>
+<div class="footer">
   <div class="cfw footer-menu line">
-    <?php print $footer_menu;?>
-  
+    <?php print $footer_menu;?> 
+  </div>
+  <div class="blackend">
+    <dl class="cfw clear-block">
+      <dt>Professionshøjskolen Metropol </dt>
+      <dd>Købmagergade 62, 3 </dd>
+    
+      <dd>1150 København K </dd>
+      <dd>+45 72 48 75 00 </dd>
+      <dd>
+        <a href="mailto:info@phmetropol.dk">info@phmetropol.dk</a> </dd>
+      <dd>
+        <a href="/Sitetools/Sitemap">Sitemap</a>
+      </dd>
+  <!--<dd>
+        <a href="http://www.phmetropol.dk/Om+Metropol/EAN+numre">CVR og EAN-nummer</a>
+      </dd> -->
+      <dd class="logo">
+        <a href="http://phmetropol.dk" title="Professionshøjskolen Metropol">
+  	      Professionshøjskolen Metropol
+  	    </a>
+      </dd>
+    </dl>
+    <?php #print $footer; ?>
   </div>
 </div>
-
-<div class="footerarea">
-
-  <dl class="cfw clear-block">
-    <dt>Professionshøjskolen Metropol </dt>
-    <dd>Købmagergade 62, 3 </dd>
-  
-    <dd>1150 København K </dd>
-    <dd>+45 72 48 75 00 </dd>
-    <dd>
-      <a href="mailto:info@phmetropol.dk">info@phmetropol.dk</a> </dd>
-    <dd>
-      <a href="/Sitetools/Sitemap">Sitemap</a>
-    </dd>
-<!--<dd>
-      <a href="http://www.phmetropol.dk/Om+Metropol/EAN+numre">CVR og EAN-nummer</a>
-    </dd> -->
-    <dd class="logo">
-      <a href="http://phmetropol.dk" title="Professionshøjskolen Metropol">
-	      Professionshøjskolen Metropol
-	    </a>
-    </dd>
-  </dl>
-
-
-<?php #print $footer; ?>
-
-</div>
-
 <?php print $closure; ?>
 </body>
 </html>

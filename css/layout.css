@@ -1,4 +1,9 @@
 body{
+  background: #EEEDEB url('../images/bg-main.jpg') no-repeat bottom center;  
+}
+
+#page {
+  width:auto;
 }
 
 .toparea{
@@ -60,8 +65,6 @@ body{
 
 
 .contentarea{
-  min-height:600px;
-  background: #EEEDEB url('../images/bg-main.jpg') no-repeat bottom center;
 }
 .content-area-bg{
   background: transparent url('../images/bg-main-shadow.png') no-repeat center bottom;
@@ -95,32 +98,32 @@ body{
   background: -moz-linear-gradient(top,  #c1b9a9,  #988e84); /* for firefox 3.6+ */
 }
 
-.footerarea{
+.footer .blackend{
   background: #262626 url('../images/bg-body-repeat.jpg') repeat top center;
   color:#ffffff;
   font-size:0.8em;
 }
-.footerarea dl{
+.footer dl{
   padding: 20px 0;
 }
-.footerarea dd, .footerarea dt{
+.footer dd, .footer dt{
   display:block;
   float:left;
   line-height:1;
 }
-.footerarea dd{
+.footer dd{
   border-left:1px solid #CDCDCD;
   margin-left:11px;
   padding-left:10px;
 }
-.footerarea .logo{
+.footer .logo{
   margin:0;
   padding:0;
   float:right;
   border:0;
   position:relative;
 }
-.footerarea .logo a{
+.footer .logo a{
   
   position:absolute;
   top:-5px;
@@ -133,6 +136,9 @@ body{
 
 }
 
+.footer-menu{
+  height:140px;
+}
 
 
 /* tabs styles */
@@ -211,3 +217,52 @@ h1,h2,h3,h4,h5,h6{
   width:100%;
  height:auto;
 }
+
+/*  
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
+*/
+
+* {margin:0;padding:0;} 
+
+/* must declare 0 margins on everything, also for main layout components use padding, not 
+vertical margins (top and bottom) to add spacing, else those margins get added to total height 
+and your footer gets pushed down a bit more, creating vertical scroll bars in the browser */
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#page {overflow:auto;
+	padding-bottom: 190px;}  /* must be same height as the footer */
+
+.footer {position: relative;
+	margin-top: -190px; /* negative value of footer height */
+	height: 190px;
+	clear:both;} 
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:100%;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+
+
+/* IMPORTANT
+
+You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+
+*/
+
