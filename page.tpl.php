@@ -63,7 +63,7 @@
         <div class="cfw line">
         <?php print $tabs; ?>
         </div>
-    <?endif;?>
+    <?php endif; ?>
       
     </div>
     
@@ -117,7 +117,6 @@
   	    </a>
       </dd>
     </dl>
-    <?php #print $footer; ?>
   </div>
 </div>
 <?php print $closure; ?>
