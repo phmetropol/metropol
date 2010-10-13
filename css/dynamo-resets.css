@@ -142,3 +142,13 @@ body.ding-ting-search .panel-twocol-left-stacked .panel-left {
   margin:0;
   padding:0;
 }
+
+
+
+/* backend resets */
+
+.action-node-add .contentwrap, .action-node-edit .contentwrap{
+  padding:10px 20px;
+}
+  
+}
