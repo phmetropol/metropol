@@ -32,6 +32,19 @@
   padding:5px;
 }
 
+.panel-twocol-left-stacked .content-top{
+  left:auto;
+  margin:0;
+  padding:0;
+  background: transparent;
+}
+.ding-library-map {
+  width: auto; /* why ooh why was this ever set? */  
+}
+.panel-twocol-left-stacked .pane-library_map {
+  padding:5px;
+}
+
 .panel-threecol-33-34-33-stacked .panel-left {
   background: transparent;
   width:50%;
