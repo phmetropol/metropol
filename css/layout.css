@@ -30,7 +30,7 @@ body{
 }
 .toparea #block-ding-library-user-account #user-login-form{
   background:none repeat scroll 0 0 transparent;
-  margin:0;
+ /* margin:0;*/
   padding:0;
 }
 .phmetropol-link{
