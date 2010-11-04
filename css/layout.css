@@ -25,10 +25,14 @@ body{
   height:46px;
 }
 
-.toparea #block-alma-user-account{
+.toparea #block-ding-library-user-account{
   float:right;
 }
-
+.toparea #block-ding-library-user-account #user-login-form{
+  background:none repeat scroll 0 0 transparent;
+  margin:0;
+  padding:0;
+}
 .phmetropol-link{
   float:right;
   margin-right:0;
