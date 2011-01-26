@@ -39,7 +39,7 @@
   background: transparent;
 }
 .ding-library-map {
-  width: auto; /* why ooh why was this ever set? */  
+  width: auto; /* why ooh why was this ever set? */
 }
 .panel-twocol-left-stacked .pane-library_map {
   padding:5px;
@@ -113,6 +113,17 @@ body.ding-ting-search .panel-twocol-left-stacked .panel-left {
   margin:0;
 }
 
+body.node-type-page .panel-threecol-left-stacked-right .content-left,
+body.node-type-page .panel-threecol-left-stacked-right .content-middle {
+  width: 720px;
+}
+
+body.node-type-page .panel-threecol-left-stacked-right .content-left .ding-box-wide,
+body.node-type-page .panel-threecol-left-stacked-right .content-middle .ding-box-wide{
+  width: 460px;
+}
+
+
 /* ding-box-pane */
 
 .ding-box-pane{
@@ -150,5 +161,5 @@ body.ding-ting-search .panel-twocol-left-stacked .panel-left {
 .action-node-add .contentwrap, .action-node-edit .contentwrap{
   padding:10px 20px;
 }
-  
+
 }
