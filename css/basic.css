@@ -51,6 +51,12 @@ div.error {
 body, caption, th, td, input, textarea, select, option, legend, fieldset {
   font-family: "Corbel","Trebuchet MS","Verdana","Tahoma",sans-serif
 }
+/* Apparently "IE 8 XP Prof ver 5.1" is missing the glyph for the
+'password hidden dot' with the above font-family. Downgrading it to
+something simpler.  */
+input[type=password] {
+  font-family: "Verdana", sans-serif
+}
 ul.pager{
   background:transparent;
 }
