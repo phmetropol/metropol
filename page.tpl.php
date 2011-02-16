@@ -19,9 +19,9 @@
   <?php print $scripts; ?>
 </head>
 <body class="<?php print $body_classes; ?><?php if (!empty($admin)) print ' '.admin;  ?>">
-<?php 
+<?php
 /*adds support for for the admin module*/
-  if (!empty($admin)) print $admin; 
+  if (!empty($admin)) print $admin;
 ?>
 
 <?php if ($help OR $messages) { ?>
@@ -58,15 +58,15 @@
         <div class="size1of2 unit"><p class="search-label"><?print t('Søg her');?></p><?php print $search ?></div>
         <div class="lastUnit unit"><?php print $account; ?></div>
       </div>
-      
+
       <?php if (arg(0) != 'user'  && $tabs): ?>
         <div class="cfw line">
         <?php print $tabs; ?>
         </div>
     <?php endif; ?>
-      
+
     </div>
-    
+
     <div class="menubar">
       <div class="cfw line">
       <?php if ($primary_links): ?>
@@ -94,13 +94,13 @@
 
 <div class="footer">
   <div class="cfw footer-menu line">
-    <?php print $footer_menu;?> 
+    <?php print $footer_menu;?>
   </div>
   <div class="blackend">
     <dl class="cfw clear-block">
       <dt>Professionshøjskolen Metropol </dt>
       <dd>Købmagergade 62, 3 </dd>
-    
+
       <dd>1150 København K </dd>
       <dd>+45 72 48 75 00 </dd>
       <dd>
@@ -119,6 +119,9 @@
     </dl>
   </div>
 </div>
+<?php print l(t('Feedback'), 'feedback', array(
+  'attributes' => array('id' => 'ding-feedback-tab'),
+)); ?>
 <?php print $closure; ?>
 </body>
 </html>
