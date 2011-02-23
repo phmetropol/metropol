@@ -22,13 +22,13 @@ function metropol_user_login_block($form){
   $form['submit']['#src'] = drupal_get_path('theme','metropol')."/images/login-btn.png";
   $form['submit']['#attributes']['class'] = '';
 
-
+  $title = '<p class="login-label">Log ind</p>';
   $name = drupal_render($form['name']);
   $pass = drupal_render($form['pass']);
   $submit = drupal_render($form['submit']);
   $remember = drupal_render($form['remember_me']);
 
-  return  $name . $pass . $submit . $remember . drupal_render($form);
+  return  $title . $name . $pass . $submit . $remember . drupal_render($form);
 }
 
 

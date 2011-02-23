@@ -10,7 +10,7 @@
 #user-login-form label{
   position:absolute;
   color:#fff;
-  
+
 }
 
 #user-login-form .form-item input{
@@ -31,10 +31,18 @@
   position:absolute;
   right:0;
   bottom:0;
-  border:4px;  
+  border:4px;
 }
 
 #user-login-form .form-image-button input {
   -moz-border-radius: 4px;
   border:3px solid #333;
+}
+
+.login-label {
+    color: #FFFFFF;
+    font-size: 0.8em;
+    line-height: 1.75em;
+    margin: 15px 0 5px;
+    text-transform: uppercase;
 }

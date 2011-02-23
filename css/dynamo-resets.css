@@ -154,12 +154,19 @@ body.node-type-page .panel-threecol-left-stacked-right .content-middle .ding-box
   padding:0;
 }
 
+/* search form resets */
+#search{
+  width:auto;
+  height:auto;
+  margin:0;
+  color:inherit;
+}
 
-
+#ting-search-form div.example li {
+    margin-left: 0;
+}
 /* backend resets */
 
 .action-node-add .contentwrap, .action-node-edit .contentwrap{
   padding:10px 20px;
-}
-
 }
