@@ -1,7 +1,5 @@
 <?php
 
-
-
 function metropol_ting_search_form($form){
   $form['keys']['#prefix'] = '<div id="search">';
   $form['keys']['#suffix'] = '</div>';
@@ -9,6 +7,12 @@ function metropol_ting_search_form($form){
   $form['submit']['#type'] = "image_button" ;
   $form['submit']['#src'] = drupal_get_path('theme','metropol')."/images/magnifier.png";
   $form['submit']['#attributes']['class'] = '';
+
+  // Override example links.
+  $links = array(
+    l(t('Feltsøgning'), 'http://integrabib.dk/phmetropol/sogning.php', array('absolute' => true)),
+  );
+  $form['example_text']['#value'] = '<div class="example">'. theme('item_list', $links).'</div>';
 
   return drupal_render($form);
 }
