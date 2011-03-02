@@ -1,0 +1,13 @@
+
+#ting-search-form .form-text{
+  position: absolute;
+  z-index: -10;
+}
+
+.toparea .example {
+  margin-top: 3px;
+}
+
+.toparea #user-login-form .form-image-button {
+  margin-bottom: 3px;
+}

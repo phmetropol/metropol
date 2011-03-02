@@ -36,10 +36,8 @@
   -moz-border-radius: 4px;
   width:95%;
 }
+
 #ting-search-form .form-image-button{
-  /*position:absolute;
-  top:0;
-  left:0;*/
   display:block;
   float:none;
   height:auto;

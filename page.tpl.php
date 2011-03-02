@@ -17,6 +17,9 @@
   <?php print $head; ?>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <!--[if lt IE 8]>
+    <link type="text/css" rel="stylesheet" media="all" href="<?php print base_path() . path_to_theme(); ?>/css/fix-ie.css" />
+  <![endif]-->
 </head>
 <body class="<?php print $body_classes; ?><?php if (!empty($admin)) print ' '.admin;  ?>">
 <?php
